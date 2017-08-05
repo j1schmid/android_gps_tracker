@@ -6,6 +6,10 @@ The development notes and all refered ressources can be found in the source code
 [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
 ## Set up the android development environment
+### Configure device
+#### Samsung Galaxy S4 mini
+Settings -> More -> About device, tap a cuple of times onto the buld number, now the developement mode should be enabled. Now above About device Developer mode should appear, enable USB debugging. Connect the device to the computer and run ```adb devices``` now the device should appear on the list.
+
 ### Android Studio [IN PROGRESS]
 
 Installation according to [Android Studio on Fedora 26](https://cialu.net/install-android-studio-fedora-26/), some additional information can be retrieved from the [official Android Studio installation guide](https://developer.android.com/studio/install.html).
