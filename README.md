@@ -6,6 +6,22 @@ The development notes and all refered ressources can be found in the source code
 [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
 ## Set up the android development environment
+### Android Studio [IN PROGRESS]
+
+Installation according to [Android Studio on Fedora 26](https://cialu.net/install-android-studio-fedora-26/), some additional information can be retrieved from the [official Android Studio installation guide](https://developer.android.com/studio/install.html).
+
+Download [Anrdoid Studio IDE](https://developer.android.com/studio/index.html) and install the required 
+```
+dnf install zlib.i686 ncurses-libs.i686 bzip2-libs.i686 compat-libstdc++-296.i686 compat-libstdc++-33.i686 compat-libstdc++-33.x86_64 glibc.i686 glibc-devel.i686 libstdc++.i686 libX11-devel.i686 libXrender.i686 libXrandr.i686
+```
+```
+unzip ~/Downloads/android-studio-ide-version-linux.zip -d /opt/
+cd /opt/android-studio/bin/
+./studio.sh
+```
+
+
+### Eclipse IDE [IN PROGRESS]
 This short guid is based on the [fedoraproject wiki tutorial](https://fedoraproject.org/wiki/HOWTO_Setup_Android_Development) and is tested on a fedora 25 distribution.
 
 dnf install eclipse-jdt
